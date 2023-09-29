@@ -13,8 +13,8 @@ name                     : &name "Kobby Nii Armah Aryeetey"
 theme                    : "jekyll"
 description              : &description "personal description"
 url                      : https://iamthatnikah.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/portfolio" # the subpath of your site, e.g. "/blog"
-repository               : "iamthatnikah/portfolio.github.io" #academicpages
+baseurl                  : "/personal" # the subpath of your site, e.g. "/blog"
+repository               : "iamthatnikah.github.io" #academicpages
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
