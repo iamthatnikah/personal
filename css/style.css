@@ -80,59 +80,6 @@ figure {
     margin: 0;
 }
 
-/* Page Border */
-
-.page-border {
-    position: fixed;
-    z-index: 999999;
-    pointer-events: none;
-}
-
-.page-border .bottom-border, .page-border .left-border, .page-border .right-border, .page-border .top-border {
-    background: #f3f3ef;
-    position: fixed;
-    z-index: 9999;
-}
-
-.page-border > .top-border, .page-border > .right-border, .page-border > .bottom-border, .page-border > .left-border {
-    padding: 11px;
-    background: #ccc;
-}
-
-.page-border .bottom-border, .page-border .top-border {
-    width: 100%;
-    padding: 10px;
-    left: 0;
-}
-
-.page-border .left-border, .page-border .right-border {
-    padding: 10px;
-    height: 100%;
-    top: 0;
-}
-
-.page-border .top-border {
-    top: 0;
-}
-
-.page-border .right-border {
-    right: 0;
-}
-
-.page-border .bottom-border {
-    bottom: 0;
-}
-
-.page-border .left-border {
-    left: 0;
-}
-
-#wrapper {
-    margin:0 15px;
-    padding: 15px 0;
-    position: relative;
-}
-
 
 /* --------- 1.1 Input Elements ---------- */
 
@@ -778,9 +725,9 @@ h6 {
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
 
-#banner {
+/*#banner {
     background-size: cover;
-}
+}*/
 
 #banner-content.row {
     padding-top: 170px;
@@ -789,15 +736,22 @@ h6 {
 }
 
 #banner h1 {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
-#banner .section-heading:before {
+/*#banner .section-heading:before {
     content: "";
     display: block;
-/*    width: 30px;*/
+    width: 30px;
     height: 5px;
     margin-top: 30px;
+}*/
+
+#banner .section-heading img{
+    border-radius: 50%;
+    image-resolution: 100%;
+    height: 250px;
+    width: 250px;
 }
 
 
@@ -811,7 +765,7 @@ h6 {
 /*Font Icon sizes*/
 
 .fa-1x {
-    font-size: 15px !important;
+    font-size: 20px !important;
 }
 
 /*Icon Block*/
