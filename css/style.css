@@ -34,10 +34,19 @@
     box-sizing: border-box;
 }
 
+main#content {}
+
+main#content {
+}
+
+main#content div {
+    display: inline-block;
+}
+
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote, th, td {
     margin: 0;
     padding: 0;
-    direction: ltr;
+/*    direction: ltr;*/
 }
 
 body {
@@ -124,21 +133,13 @@ input:focus, textarea:focus {
 /* 2. Layout Elements */
 /*------------------------------------------------------------------------------------------*/
 
-section {
+/*section {
     clear: both;
     overflow: hidden;
-}
+}*/
 
-/* Rows and Columns */
 
-.row {
-    max-width: 1245px;
-    margin: 0 auto;
-    padding: 75px 0;
-    position: relative;
-}
-
-.no-padding-bottom .row, .no-padding-bottom div, .no-padding-bottom.row {
+/*.no-padding-bottom .row, .no-padding-bottom div, .no-padding-bottom.row {
     padding-bottom: 0;
 }
 
@@ -152,29 +153,29 @@ section {
 
 .big-padding-bottom {
     padding-bottom: 85px !important;
-}
+}*/
 
 /* Targets all elements */
 
-[class*='col-'] {
+/*[class*='col-'] {
     float: left;
     padding: 20px;
-}
+}*/
 
-#clients .col-2-3 [class*='col-'] {
+/*#clients .col-2-3 [class*='col-'] {
     padding: 0;
-}
+}*/
 
 /* Clearfix */
 
-.clearfix:after {
+/*.clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 /* Main Widths */
-
+/*
 .col-1 {
     width: 100%;
 }
@@ -236,31 +237,31 @@ section {
 }
 
 /* Golden Ratio */
-.col-61 {
+/*.col-61 {
     width: 61.8%;
 }
 
 .col-38 {
     width: 38.2%;
-}
+}*/*/
 
 /* --------- 2.1 Header --------- */
 
 #header {
     height: 71px !important;
-    overflow: visible;
+/*    overflow: visible;*/
     z-index: 9999;
-    width: 100%;
-    position: absolute !important;
+    width: 100% ;
+/*    position: absolute !important;*/
 }
 
 #header .row {
     padding: 0;
 }
 
-#header aside {
+/*#header aside {
     text-align: right;
-}
+}*/
 
 #header ul {
     text-align: center;
@@ -270,6 +271,9 @@ section {
     display: inline-block;
     list-style: none;
     margin: 0;
+}
+#header li a {
+    text-decoration: none;
 }
 
 /* --------- 2.2 Logo ---------- */
@@ -292,19 +296,9 @@ section {
     padding: 0;
 }
 
-#logo h2 {
-    font-size: 18px;
-    padding: 0;
-}
-
-#logo img {
-    max-height: 22px;
-    vertical-align: middle;
-    margin-right: 15px;
-}
-
-#navigation-logo {
-    display: none;
+#logo h1 a {
+    text-decoration: none;
+    color: #000;
 }
 
 .nav-solid #logo #banner-logo {
@@ -317,6 +311,7 @@ section {
 
 #nav-main{
     float: right;
+    padding: 0 15px;
 }
 
 /* --------- 2.3 Buttons ---------- */
@@ -427,6 +422,8 @@ section {
 
 #header {
     font-size: 13px;
+    padding: 0 25px;
+    width: 100%;
 }
 
 #header aside {
@@ -706,8 +703,8 @@ h6 {
 }*/
 
 #banner-content.row {
-    padding-top: 100px;
-/*    padding-bottom: 70px;*/
+    padding-top: 180px;
+    padding-bottom: 20;
     text-align: center;
 }
 
@@ -717,9 +714,9 @@ h6 {
 
 #banner .section-heading img{
     margin-top: 25px;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
 }
 
 #social .social-icons {
