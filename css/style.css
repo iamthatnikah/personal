@@ -900,6 +900,7 @@ h6 {
 
 blockquote {
     position: relative;
+    display: inline-block;
 }
 
 .testimonial img {
@@ -1348,7 +1349,7 @@ blockquote {
 /* --------- 6.6 Clients ---------- */
 
 #clients a {
-    display: block;
+    display: inline-block;
     text-align: center;
     position: relative;
     text-transform: uppercase;
@@ -1465,7 +1466,7 @@ blockquote {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer {
-    clear: both;
+/*    clear: both;*/
 }
 
 #landing-footer .row {
