@@ -34,10 +34,18 @@
     box-sizing: border-box;
 }
 
+section#about {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-evenly;
+    grid-column-gap: 2px;
+}
+
+section#about {}
+
 main#content {}
 
-main#content {
-}
+main#content {display: grid;justify-content: space-around;align-content: space-evenly;grid-column-gap: 2px;}
 
 main#content div {
     display: inline-block;
@@ -706,6 +714,7 @@ h6 {
     padding-top: 180px;
     padding-bottom: 20;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.84);
 }
 
 #banner h1 {
