@@ -318,16 +318,30 @@ p {
 /*------------------------------------------------------------------------------------------*/
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
-
+#landing-footer{
+    height: auto;
+    width: 100%;
+}
 #landing-footer, #landing-footer p, #landing-footer a {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
-    color:#999;
+    color:#fff;
+    text-align: left;
+    background-color: #000;
+}
+#landing-footer h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-weight: 800px;
+    color:#fff;
+    background-color: #000;
+}
+#landing-footer .social-icons li {
+    margin: 5px;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#999;
+    color:#fff;
 }
